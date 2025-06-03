@@ -44,39 +44,55 @@ const Home = () => {
           <h1 className="my-5">Our Testimanials</h1>
           <div className="d-md-flex justify-content-around">
             <div style={{ width: "16rem" }} className="card text-center">
-              <div>Icons</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-                reiciendis cum ratione nam dolorum quas exercitationem.
-                Exercitationem officiis praesentium maxime ea eos? Fugit
-                officiis sunt quos alias fuga eum cumque.
-              </p>
-              <img className="img-fluid" src="" alt="" />
-            </div>
-            <div style={{ width: "16rem" }} className="card text-center">
+              <img
+                className="img-fluid"
+                src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.jpg"
+                alt=""
+              />
               <div className="text-warning">
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
                 reiciendis cum ratione nam dolorum quas exercitationem.
-                Exercitationem officiis praesentium maxime ea eos? Fugit
-                officiis sunt quos alias fuga eum cumque.
               </p>
-              <img className="img-fluid" src="" alt="" />
             </div>
             <div style={{ width: "16rem" }} className="card text-center">
-              <div>Icons</div>
+              <img
+                className="img-fluid"
+                src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.jpg"
+                alt=""
+              />
+              <div className="text-warning">
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
                 reiciendis cum ratione nam dolorum quas exercitationem.
-                Exercitationem officiis praesentium maxime ea eos? Fugit
-                officiis sunt quos alias fuga eum cumque.
               </p>
-              <img className="img-fluid" src="" alt="" />
+            </div>
+            <div style={{ width: "16rem" }} className="card text-center">
+              <img
+                className="img-fluid "
+                src="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.jpg"
+                alt=""
+              />
+              <div className="text-warning">
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                reiciendis cum ratione nam dolorum quas exercitationem.
+              </p>
             </div>
           </div>
         </div>

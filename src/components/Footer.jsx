@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
-          <div
-        style={{ paddingLeft: "65px" }}
-        className="bg-purple-500 w-full d-flex grid grid-cols-4 text-white  pt-6 pb-3"
+    <div className="" style={{ backgroundColor: "black" }}>
+      <div
+        style={{ paddingLeft: "65px", margin: "0" }}
+        className="bg-purple-500 w-full d-flex grid grid-cols-4 text-white  pt-3  pb-3 "
       >
         <div className="col">
-        <i  className="fa-brands  fa-docker"></i>{" "}
+          <i className="fa-brands  fa-docker"></i>{" "}
           <span style={{ fontSize: "22px" }} className="font-bold ">
             Project Fair
           </span>
@@ -20,21 +20,27 @@ const Footer = () => {
           <p>Code licenced Luminar docs CC BY 3.0.</p>
           <p>Currently v5.3.2</p>
         </div>
-        <div  className="col ps-6 ">
+        <div className="col ps-6 ">
           <h4 style={{ fontSize: "22px" }} className="font-bold">
             Links
           </h4>
           <p>
             {" "}
-            <Link style={{textDecoration:'none'}} to={"/"}>Home Page</Link>
+            <Link style={{ textDecoration: "none" }} to={"/"}>
+              Home Page
+            </Link>
           </p>
           <p>
             {" "}
-            <Link style={{textDecoration:'none'}} to={"/cart"}>Cart</Link>
+            <Link style={{ textDecoration: "none" }} to={"/cart"}>
+              Cart
+            </Link>
           </p>
           <p>
             {" "}
-            <Link style={{textDecoration:'none'}} to={"/wishlist"}>whishlist</Link>
+            <Link style={{ textDecoration: "none" }} to={"/wishlist"}>
+              whishlist
+            </Link>
           </p>
         </div>
         <div className="col ps-6">
@@ -71,7 +77,7 @@ const Footer = () => {
         january 2025 batch,Daily Cart,Build with React Redux.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
