@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
-
+import placeholderImg from "../assets/placeholderImg.png";
 const Add = () => {
   const [show, setShow] = useState(false);
 
@@ -28,8 +28,16 @@ const Add = () => {
           <Modal.Title>My New Project Details</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className="row">
-            <div className="col-lg-5"></div>
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <label>
+                <input style={{ display: "none" }} type="file" name="" id="" />
+                <img className="img-fluid" src={placeholderImg} alt="" />
+              </label>
+              <p className="text-warning fw-bold fs-6 text-center pt-2">
+                Upload the following types (jpg,png,jpeg)here!!!
+              </p>
+            </div>
             <div className="col-lg-7">
               <FloatingLabel
                 controlId="floatingInput"
