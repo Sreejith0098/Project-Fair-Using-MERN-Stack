@@ -1,0 +1,101 @@
+node js is a free open source cross plaatform javascript runtime environment that 
+>highly scalable 
+>handle asynchronous fuctions 
+>fast
+
+Global Object in node js:-
+it can be accessed without importing and exporting etc:process
+(environmental variable )env
+ storing secret  data dirname
+
+
+ >Node js module system :used to share data from one js file to another js file uses  commonJS Module system
+ require("file path/packagename"):used to import data from a file packagename
+> module.export /exports keyword :used to export data
+
+
+-----predefined /buid in Modules-----
+>fs module-used to handle files 
+>http module/https module - used to create Api using node js
+>events Module-Used to handle events
+>crypto Module -Used to encript code 
+>node mailer 
+
+Execution model:Event driven nonblocking I/O model optimized asynchronous task
+
+API ACCESS:
+access to system level Api (file system newiek process)
+File System Access:fs module 
+
+single thread
+
+cors ( cross orgin resource share )
+CORS (Cross-Origin Resource Sharing) is a mechanism that allows web pages to access restricted resources from a server on a different domain than the one that served the web page. 
+
+-----use cases of node js--- 
+REst Api
+real time chat application'
+Sreams Apps
+CLI tools
+IOT application
+
+node js module system
+CommonJS MOdule system
+inbuid Modules
+third party Modules managing using NPM(node package manager)
+             
+----node js eco system------
+>npm
+>npx
+using javascript
+
+
+----nodemon------
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+-----express js-----
+Express.js, often simply referred to as Express, is a minimal and flexible Node.js web application framework. It provides a robust set of features for building web and mobile applications, simplifying the process of handling HTTP requests and defining routes.
+
+key features:-
+> minimal framework
+> Routing
+> MIddleware support
+> HTTP Utilities 
+> Easy integration
+
+
+steps for server creation 
+careate package.json file using- npm init ->  npm i -> Create a index.js file for the server configuration ->
+Update package.json script with object start as key ans value as node index.js and remove test key from it
+
+
+npm i express
+
+const express = require("express")
+
+
+server creation
+const pfServer =
+
+cors installation
+
+importing
+
+use cors in pfServer
+
+process- .env environmental 
+
+creating .env  file
+
+express.json is used 
+
+port 
+
+port.listen(port)callback
+
+create git ignore file and add .env and node modules
+
+
+ 
+
+

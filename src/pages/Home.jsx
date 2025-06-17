@@ -1,8 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import landingImg from "../assets/landingImg.png";
 import ProjectCard from "../components/ProjectCard";
 const Home = () => {
+
+  const navigate =useNavigate();
+  const onProjectClick=()=>{
+    if(sessionStorage.getItem("token")){
+      navigate("/projects");
+
+
+    }else{
+      alert("please login")
+    }
+  }
   return (
     <>
       <div
@@ -22,9 +33,18 @@ const Home = () => {
                 all projects available in our website... What are you waiting
                 for!!!
               </p>
+
+              {
+                sessionStorage.getItem("token")?(
+                  <Link to={"/dashboard"} className="btn btn-primary" >
+                    manage your projects
+                   </Link>
+                ):(
+              
               <Link to={"/login"} className="btn btn-warning">
                 STARTS TO EXPLORE
-              </Link>
+              </Link>)
+}
             </div>
             <div className="col-lg-6">
               <img src={landingImg} alt="landingImg" className="img-fluid" />
@@ -37,7 +57,7 @@ const Home = () => {
         <marquee>
           <ProjectCard />
         </marquee>
-        <button btn btn-link mt-5>
+        <button onClick={onProjectClick} btn btn-link mt-5>
           Click here to view more Projects
         </button>
         <div className="text-center">

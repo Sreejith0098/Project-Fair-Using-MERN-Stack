@@ -1,7 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import '../bootstrap.min.css'
+import './bootstrap.min.css'
 import Dashboard from './pages/Dashboard'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
