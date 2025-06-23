@@ -6,6 +6,8 @@ const ProjectCard = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  
   return (
     <>
       <Card onClick={handleShow} style={{ width: "18rem" }}>
