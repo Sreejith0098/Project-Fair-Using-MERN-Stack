@@ -1,7 +1,6 @@
 import axios from "axios";
 import { serverURL } from "./serverURL";
 
-
 const commonAPI = async (method,endpoint,reqBody,reqHeader) => {
     
     const reqConfig={

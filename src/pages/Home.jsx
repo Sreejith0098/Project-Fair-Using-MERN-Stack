@@ -9,7 +9,6 @@ const Home = () => {
     if(sessionStorage.getItem("token")){
       navigate("/projects");
 
-
     }else{
       alert("please login")
     }

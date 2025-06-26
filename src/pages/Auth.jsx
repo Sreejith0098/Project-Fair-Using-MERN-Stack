@@ -63,7 +63,6 @@ navigate("/")
 } catch (error) {
   console.error(error)
 }
-
   }else{
     alert("please fill the form")
   }
