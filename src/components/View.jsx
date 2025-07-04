@@ -1,6 +1,7 @@
 import React from "react";
 
 const View = () => {
+  
   return (
     <div>
       <div className="d-flex justify-content-between border rounded my-2">

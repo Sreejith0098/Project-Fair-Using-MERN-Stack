@@ -5,6 +5,7 @@ import Add from "../components/Add";
 import View from "../components/View";
 
 const Dashboard = () => {
+  
   return (
     <>
       <Header insideDashboard={true} />

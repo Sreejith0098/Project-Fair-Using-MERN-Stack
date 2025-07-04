@@ -3,8 +3,9 @@ import { Container, Navbar } from "react-bootstrap";
 
 Container;
 const Header = ({ insideDashboard }) => {
-  
+
   return (
+    
     <Navbar className=" position-sticky top-0 border shadow ">
       <Container className="d-flex">
         <div>
