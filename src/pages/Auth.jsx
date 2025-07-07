@@ -19,7 +19,7 @@ const Auth = ({ insideRegister }) => {
   
   if(userData.email&& userData.password&& userData.userName){
 
-  
+
 try {
   
   let apiResult = await registerUser(userData)

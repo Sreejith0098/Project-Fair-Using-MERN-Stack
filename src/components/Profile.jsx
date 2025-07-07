@@ -5,6 +5,7 @@ import avatar from "../assets/avatar.png";
 import { FloatingLabel, Form } from "react-bootstrap";
 
 const Profile = () => {
+  
   const [open, setOpen] = useState(false);
   return (
     <div className="container-fluid">
