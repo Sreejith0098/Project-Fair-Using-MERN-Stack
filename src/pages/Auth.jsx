@@ -12,7 +12,6 @@ const Auth = ({ insideRegister }) => {
     email: "",
     password: "",
   });
-
   const[loading,setLoading] = useState(false)
 
  const register = async () => {
