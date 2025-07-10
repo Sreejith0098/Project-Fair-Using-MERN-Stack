@@ -8,7 +8,6 @@ const Home = () => {
   const onProjectClick=()=>{
     if(sessionStorage.getItem("token")){
       navigate("/projects");
-
     }else{
       alert("please login")
     }
