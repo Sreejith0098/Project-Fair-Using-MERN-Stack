@@ -13,7 +13,7 @@ const Home = () => {
     }
   }
   return (
-    
+  
     <>
       <div
         style={{ minHeight: "100vh" }}
